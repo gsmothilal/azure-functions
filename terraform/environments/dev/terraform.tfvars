@@ -9,9 +9,10 @@ app_service_plan_name            = "functions-service-plan"
 app_service_plan_sku_tier        = "Standard"
 app_service_plan_sku_size        = "S1"
 
-function_app_name                = "functionsazapp"                # Must be globally unique if deployed publicly
+function_app_name                = "functionsazappmothi"                # Must be globally unique if deployed publicly
 
 tags = {
   environment = "dev"
   team        = "devops"
 }
+
