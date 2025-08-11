@@ -1,7 +1,7 @@
 resource_group_name               = "Functions-rg"
 resource_group_location           = "West Europe"
 
-storage_account_name              = "fnstorage12345"           # No dashes; must be globally unique, lowercase
+storage_account_name              = "mothistorage567"           # No dashes; must be globally unique, lowercase
 storage_account_tier              = "Standard"
 storage_account_replication_type = "LRS"
 
@@ -10,4 +10,5 @@ app_service_plan_sku_tier        = "Standard"
 app_service_plan_sku_size        = "S1"
 
 function_app_name                = "functionsazapp"                # Must be globally unique if deployed publicly
+
 
